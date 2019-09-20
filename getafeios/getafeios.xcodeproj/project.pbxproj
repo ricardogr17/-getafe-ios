@@ -58,19 +58,10 @@
 		D9F5A5F6233531B000CAA1C9 /* getafeios */ = {
 			isa = PBXGroup;
 			children = (
-				D9F5A6122335330A00CAA1C9 /* Resources */,
-				D9F5A60F2335329A00CAA1C9 /* Products */,
-				D9F5A60E2335328000CAA1C9 /* Controllers */,
-				D9F5A60C2335323A00CAA1C9 /* Views */,
-				D9F5A60B2335321200CAA1C9 /* UI */,
-				D9F5A60A233531FA00CAA1C9 /* Data */,
 				D9F5A609233531E800CAA1C9 /* App */,
-				D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */,
-				D9F5A5F9233531B000CAA1C9 /* ViewController.swift */,
-				D9F5A5FB233531B000CAA1C9 /* Main.storyboard */,
-				D9F5A5FE233531B600CAA1C9 /* Assets.xcassets */,
-				D9F5A600233531B600CAA1C9 /* LaunchScreen.storyboard */,
-				D9F5A603233531B600CAA1C9 /* Info.plist */,
+				D9F5A6122335330A00CAA1C9 /* Resources */,
+				D9F5A60A233531FA00CAA1C9 /* Data */,
+				D9F5A60B2335321200CAA1C9 /* UI */,
 			);
 			path = getafeios;
 			sourceTree = "<group>";
@@ -78,6 +69,8 @@
 		D9F5A609233531E800CAA1C9 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */,
+				D9F5A603233531B600CAA1C9 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -93,6 +86,8 @@
 		D9F5A60B2335321200CAA1C9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A60C2335323A00CAA1C9 /* Views */,
+				D9F5A60E2335328000CAA1C9 /* Controllers */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -108,6 +103,8 @@
 		D9F5A60D2335324E00CAA1C9 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A600233531B600CAA1C9 /* LaunchScreen.storyboard */,
+				D9F5A5FB233531B000CAA1C9 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -115,16 +112,10 @@
 		D9F5A60E2335328000CAA1C9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A5F9233531B000CAA1C9 /* ViewController.swift */,
 				D9F5A6152335366900CAA1C9 /* ViewControllers.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D9F5A60F2335329A00CAA1C9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Products;
 			sourceTree = "<group>";
 		};
 		D9F5A610233532B900CAA1C9 /* Local */ = {
@@ -146,6 +137,7 @@
 		D9F5A6122335330A00CAA1C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A5FE233531B600CAA1C9 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
