@@ -17,7 +17,7 @@ class Student: CustomStringConvertible {
         return "Student data: \(String(describing: name))\(String(describing: email))"
     }
     
-    convenience init(name: String, email: String? = nil, birthdate: Date? = nil()) {
+    convenience init(name: String, email: String? = nil, birthdate: Date? = nil) {
         self.init()
         
         self.name = name
