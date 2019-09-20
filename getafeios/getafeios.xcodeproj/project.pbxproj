@@ -12,6 +12,8 @@
 		D9F5A5FD233531B000CAA1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A5FB233531B000CAA1C9 /* Main.storyboard */; };
 		D9F5A5FF233531B600CAA1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A5FE233531B600CAA1C9 /* Assets.xcassets */; };
 		D9F5A602233531B600CAA1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A600233531B600CAA1C9 /* LaunchScreen.storyboard */; };
+		D9F5A6142335353E00CAA1C9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A6132335353E00CAA1C9 /* Student.swift */; };
+		D9F5A6162335366900CAA1C9 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A6152335366900CAA1C9 /* ViewControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D9F5A5FE233531B600CAA1C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F5A601233531B600CAA1C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F5A603233531B600CAA1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F5A6132335353E00CAA1C9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D9F5A6152335366900CAA1C9 /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,13 @@
 		D9F5A5F6233531B000CAA1C9 /* getafeios */ = {
 			isa = PBXGroup;
 			children = (
+				D9F5A6122335330A00CAA1C9 /* Resources */,
+				D9F5A60F2335329A00CAA1C9 /* Products */,
+				D9F5A60E2335328000CAA1C9 /* Controllers */,
+				D9F5A60C2335323A00CAA1C9 /* Views */,
+				D9F5A60B2335321200CAA1C9 /* UI */,
+				D9F5A60A233531FA00CAA1C9 /* Data */,
+				D9F5A609233531E800CAA1C9 /* App */,
 				D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */,
 				D9F5A5F9233531B000CAA1C9 /* ViewController.swift */,
 				D9F5A5FB233531B000CAA1C9 /* Main.storyboard */,
@@ -62,6 +73,81 @@
 				D9F5A603233531B600CAA1C9 /* Info.plist */,
 			);
 			path = getafeios;
+			sourceTree = "<group>";
+		};
+		D9F5A609233531E800CAA1C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D9F5A60A233531FA00CAA1C9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5A610233532B900CAA1C9 /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D9F5A60B2335321200CAA1C9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D9F5A60C2335323A00CAA1C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5A60D2335324E00CAA1C9 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F5A60D2335324E00CAA1C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D9F5A60E2335328000CAA1C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5A6152335366900CAA1C9 /* ViewControllers.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9F5A60F2335329A00CAA1C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		D9F5A610233532B900CAA1C9 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5A611233532C600CAA1C9 /* Models */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D9F5A611233532C600CAA1C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5A6132335353E00CAA1C9 /* Student.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9F5A6122335330A00CAA1C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F5A5FA233531B000CAA1C9 /* ViewController.swift in Sources */,
+				D9F5A6142335353E00CAA1C9 /* Student.swift in Sources */,
+				D9F5A6162335366900CAA1C9 /* ViewControllers.swift in Sources */,
 				D9F5A5F8233531B000CAA1C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +370,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = getafeios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.getafeios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +389,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = getafeios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.getafeios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
