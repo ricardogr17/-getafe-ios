@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9922E33233916A200155557 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9922E32233916A200155557 /* DefaultData.swift */; };
 		D9F5A5F8233531B000CAA1C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */; };
 		D9F5A5FA233531B000CAA1C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A5F9233531B000CAA1C9 /* ViewController.swift */; };
 		D9F5A5FD233531B000CAA1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A5FB233531B000CAA1C9 /* Main.storyboard */; };
@@ -14,9 +15,12 @@
 		D9F5A602233531B600CAA1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A600233531B600CAA1C9 /* LaunchScreen.storyboard */; };
 		D9F5A6142335353E00CAA1C9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A6132335353E00CAA1C9 /* Student.swift */; };
 		D9F5A6162335366900CAA1C9 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A6152335366900CAA1C9 /* ViewControllers.swift */; };
+		D9F5A6192335475300CAA1C9 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A6182335475300CAA1C9 /* Teacher.swift */; };
+		D9F5A61B2335477400CAA1C9 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A61A2335477400CAA1C9 /* Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9922E32233916A200155557 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
 		D9F5A5F4233531B000CAA1C9 /* getafeios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getafeios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F5A5F9233531B000CAA1C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		D9F5A603233531B600CAA1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F5A6132335353E00CAA1C9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D9F5A6152335366900CAA1C9 /* ViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		D9F5A6182335475300CAA1C9 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		D9F5A61A2335477400CAA1C9 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		D9F5A610233532B900CAA1C9 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				D9922E32233916A200155557 /* DefaultData.swift */,
 				D9F5A611233532C600CAA1C9 /* Models */,
 			);
 			path = Local;
@@ -130,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				D9F5A6132335353E00CAA1C9 /* Student.swift */,
+				D9F5A6182335475300CAA1C9 /* Teacher.swift */,
+				D9F5A61A2335477400CAA1C9 /* Subject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,8 +223,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F5A5FA233531B000CAA1C9 /* ViewController.swift in Sources */,
+				D9F5A6192335475300CAA1C9 /* Teacher.swift in Sources */,
 				D9F5A6142335353E00CAA1C9 /* Student.swift in Sources */,
+				D9922E33233916A200155557 /* DefaultData.swift in Sources */,
 				D9F5A6162335366900CAA1C9 /* ViewControllers.swift in Sources */,
+				D9F5A61B2335477400CAA1C9 /* Subject.swift in Sources */,
 				D9F5A5F8233531B000CAA1C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
