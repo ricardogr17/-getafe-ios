@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Students-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="getafeios" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,8 +37,8 @@
                                     <action selector="onButtomPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1R8-l5-3qk"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aAd-CJ-aNj">
-                                <rect key="frame" x="7" y="269" width="400" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aAd-CJ-aNj">
+                                <rect key="frame" x="7" y="30" width="400" height="839"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <tabBar key="tableFooterView" contentMode="scaleToFill" id="349-tr-KHw">
@@ -55,7 +55,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="kbh-so-evw"/>
+                    <tabBarItem key="tabBarItem" title="Students" image="ic_tab_students" id="kbh-so-evw"/>
                     <connections>
                         <outlet property="actionButton" destination="euB-dW-unV" id="CHb-xK-jUX"/>
                         <outlet property="label" destination="qwK-26-tH3" id="mW6-DU-ne5"/>
@@ -72,6 +72,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="851-P8-GNh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8s1-nx-JRC">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -84,4 +85,7 @@
             <point key="canvasLocation" x="34.782608695652179" y="38.839285714285715"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_tab_students" width="30" height="27"/>
+    </resources>
 </document>
