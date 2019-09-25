@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D9922E33233916A200155557 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9922E32233916A200155557 /* DefaultData.swift */; };
+		D9A388F1233BB1C100E2FB7D /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A388F0233BB1C100E2FB7D /* StudentsViewController.swift */; };
+		D9A388F3233BD6B500E2FB7D /* StudentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A388F2233BD6B500E2FB7D /* StudentsViewCell.swift */; };
 		D9F5A5F8233531B000CAA1C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */; };
 		D9F5A5FA233531B000CAA1C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F5A5F9233531B000CAA1C9 /* ViewController.swift */; };
 		D9F5A5FD233531B000CAA1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5A5FB233531B000CAA1C9 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		D9922E32233916A200155557 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
+		D9A388F0233BB1C100E2FB7D /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		D9A388F2233BD6B500E2FB7D /* StudentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewCell.swift; sourceTree = "<group>"; };
 		D9E5C9EB233A991F00DC9271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		D9F5A5F4233531B000CAA1C9 /* getafeios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getafeios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F5A5F7233531B000CAA1C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				D9F5A5F9233531B000CAA1C9 /* ViewController.swift */,
+				D9A388F0233BB1C100E2FB7D /* StudentsViewController.swift */,
+				D9A388F2233BD6B500E2FB7D /* StudentsViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +230,8 @@
 				D9F5A6142335353E00CAA1C9 /* Student.swift in Sources */,
 				D9922E33233916A200155557 /* DefaultData.swift in Sources */,
 				D9F5A61B2335477400CAA1C9 /* Subject.swift in Sources */,
+				D9A388F1233BB1C100E2FB7D /* StudentsViewController.swift in Sources */,
+				D9A388F3233BD6B500E2FB7D /* StudentsViewCell.swift in Sources */,
 				D9F5A5F8233531B000CAA1C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -38,18 +38,53 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aAd-CJ-aNj">
-                                <rect key="frame" x="7" y="30" width="400" height="839"/>
+                                <rect key="frame" x="7" y="35" width="400" height="839"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <tabBar key="tableFooterView" contentMode="scaleToFill" id="349-tr-KHw">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="49"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <items>
-                                        <tabBarItem systemItem="favorites" id="s7c-l1-lHp"/>
-                                        <tabBarItem systemItem="more" id="xVn-n3-lbA"/>
-                                    </items>
-                                </tabBar>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentsViewCell" rowHeight="86" id="3Kn-8m-9lh" customClass="StudentsViewCell" customModule="getafeios" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="400" height="86"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Kn-8m-9lh" id="xDW-U5-InS">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="86"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pj4-s1-ZYM">
+                                                    <rect key="frame" x="0.0" y="-21" width="400" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIn-bc-70b">
+                                                            <rect key="frame" x="8" y="18" width="85" height="92"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7U-NQ-3f5">
+                                                            <rect key="frame" x="96" y="68" width="126" height="27"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="291-5Z-ZZf">
+                                                            <rect key="frame" x="96" y="25" width="182" height="42"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ViewImage" destination="BIn-bc-70b" id="IXU-qg-wqh"/>
+                                            <outlet property="tableViewLabelEmail" destination="i7U-NQ-3f5" id="Su4-d5-kWC"/>
+                                            <outlet property="tableViewLabelName" destination="291-5Z-ZZf" id="NNc-NK-g7U"/>
+                                            <outlet property="viewCell" destination="Pj4-s1-ZYM" id="vo1-Y5-PFT"/>
+                                            <outlet property="viewImage" destination="BIn-bc-70b" id="3av-qA-0ce"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,7 +94,7 @@
                     <connections>
                         <outlet property="actionButton" destination="euB-dW-unV" id="CHb-xK-jUX"/>
                         <outlet property="label" destination="qwK-26-tH3" id="mW6-DU-ne5"/>
-                        <outlet property="tableView" destination="aAd-CJ-aNj" id="QPP-wO-KRP"/>
+                        <outlet property="tableView" destination="aAd-CJ-aNj" id="eCy-iZ-UrX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

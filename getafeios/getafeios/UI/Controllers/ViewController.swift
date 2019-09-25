@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITabBarController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var actionButton: UIButton!
