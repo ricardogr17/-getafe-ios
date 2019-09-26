@@ -1,14 +1,15 @@
 //
-//  StudentsViewCell.swift
+//  TeachersViewCell.swift
 //  getafeios
 //
-//  Created by Dev2 on 25/09/2019.
+//  Created by Dev2 on 26/09/2019.
 //  Copyright © 2019 Dev. All rights reserved.
 //
 
 import UIKit
+import UIKit
 
-class StudentsViewCell: UITableViewCell {
+class TeachersViewCell: UITableViewCell {
     @IBOutlet weak var viewCell: UIView!
      @IBOutlet weak var tableViewLabelName: UILabel!
     @IBOutlet weak var tableViewLabelEmail: UILabel!
@@ -19,10 +20,8 @@ class StudentsViewCell: UITableViewCell {
         tableViewLabelName.text = nil
         tableViewLabelEmail.text = nil
     }
-    func configureCell(student: Student) {
-        tableViewLabelName.text = student.name
-        tableViewLabelEmail.text = student.email
-        viewImage.image = UIImage(named: student.avatar ?? "")
+    func configureCell(teacher: Teacher) {
+        tableViewLabelName.text = teacher.name
+        tableViewLabelEmail.text = teacher.email
     }
 }
-

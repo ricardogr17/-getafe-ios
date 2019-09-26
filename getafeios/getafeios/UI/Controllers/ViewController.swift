@@ -10,24 +10,13 @@ import UIKit
 
 class ViewController: UITabBarController {
     
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var actionButton: UIButton!
-    @IBOutlet weak var tableView: UITableView!
-    
-    @IBAction func onButtomPressed( sender: UIButton ) {
-        print("Buttom pressed")
-        
-        label.text = "He pulsado el boton"
-    
-    }
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        actionButton.setTitle("MI BOTON", for: .normal)
-        
-        label.textColor = .red
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
